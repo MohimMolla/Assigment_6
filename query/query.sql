@@ -6,8 +6,9 @@ SELECT a.name, a.email, a.location FROM customers a;
 
 
 SELECT c.name, c.email, c.location, o.order_date, o.total_amount
-FROM customers c
-INNER JOIN order o ON c.id = o.customer_id;
+FROM Customers c
+INNER JOIN `order` o ON c.id = o.customer_id;
+
 
 
 
